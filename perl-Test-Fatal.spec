@@ -1,9 +1,9 @@
 %define upstream_name    Test-Fatal
-%define upstream_version 0.003
+%define upstream_version 0.005
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Incredibly simple helpers for testing code with exceptions
 License:    GPL+ or Artistic
