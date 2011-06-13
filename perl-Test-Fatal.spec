@@ -1,5 +1,5 @@
 %define upstream_name    Test-Fatal
-%define upstream_version 0.005
+%define upstream_version 0.006
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
