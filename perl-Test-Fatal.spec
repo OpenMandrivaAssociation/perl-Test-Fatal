@@ -1,14 +1,14 @@
 %define modname	Test-Fatal
-%define modver	0.006
+%define modver 0.013
 
 Summary:	Incredibly simple helpers for testing code with exceptions
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-Fatal-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Exporter)
@@ -41,4 +41,5 @@ It exports one routine by default: 'exception'.
 %doc README Changes LICENSE META.yml META.json
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
 
