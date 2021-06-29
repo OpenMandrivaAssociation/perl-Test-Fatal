@@ -1,5 +1,5 @@
 %define modname	Test-Fatal
-%define modver 0.014
+%define modver 0.016
 
 # Avoid nasty build dependency loop
 %define dont_gprintify 1
@@ -7,7 +7,7 @@
 Summary:	Incredibly simple helpers for testing code with exceptions
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	6
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::Fatal
