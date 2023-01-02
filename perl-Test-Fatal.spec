@@ -5,7 +5,7 @@
 
 Summary:	Incredibly simple helpers for testing code with exceptions
 Name:		perl-%{modname}
-Version:	0.016
+Version:	0.017
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
