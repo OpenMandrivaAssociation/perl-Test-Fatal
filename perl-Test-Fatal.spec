@@ -9,7 +9,7 @@ Version:	0.017
 Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::Fatal
+Url:		https://metacpan.org/pod/Test::Fatal
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Carp)
