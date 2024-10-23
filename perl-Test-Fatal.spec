@@ -6,7 +6,7 @@
 Summary:	Incredibly simple helpers for testing code with exceptions
 Name:		perl-%{modname}
 Version:	0.017
-Release:	3
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Fatal
