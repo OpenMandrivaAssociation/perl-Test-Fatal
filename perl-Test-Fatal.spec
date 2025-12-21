@@ -12,6 +12,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Fatal
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Exporter)
 BuildRequires:	perl(Test::More)
