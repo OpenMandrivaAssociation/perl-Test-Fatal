@@ -5,8 +5,8 @@
 
 Summary:	Incredibly simple helpers for testing code with exceptions
 Name:		perl-%{modname}
-Version:	0.017
-Release:	4
+Version:	0.018
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Fatal
@@ -28,7 +28,7 @@ exception-throwing code with about the same amount of typing.
 It exports one routine by default: 'exception'.
 
 %prep
-%autosetup -p1 -n %{modname}-%{version}
+%autosetup -p1 -n Test-Fatal-0.018
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
